@@ -1,0 +1,35 @@
+## Introdução ao Git_Github
+
+# Comandos para encaminhar ao repositório remoto
+
+$ git config --li (Listara todas configurações do seu Git)
+    
+- Caso não esteja acessado ao GitHub
+       $ git config --global user.email "williamalmeida8452@gmail.com" 
+       $ git config --global nickname williamalmeida05
+
+- Enviar os arquivos para o repositório remoto
+
+$ git remote add origin "link do repositório"
+
+$ git remote -v (Visualizar os repositórios cadastrados)
+
+$ git status (Certificar se contém alguma pendencia)
+
+$ git push origin main (irá encaminhar para o repositório)
+
+Comandos Úteis
+
+$ ls --> (Visualizar quais arquivos estão na pasta, se situando na projeto)
+
+$ git status 
+
+$ mkdir "nome da pasta" --> (Criar pasta)
+
+$ mv "./nome do arquivo" "./nome da pasta que receberá" (Mover arquivo para outra pasta)
+
+$ git add .
+
+$ git commit -am "inicializando bootcamp"
+
+$ git clone "link do repositório"
